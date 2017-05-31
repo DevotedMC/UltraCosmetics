@@ -201,6 +201,7 @@ public class MessageManager {
         addMessage("Particle-Effects.CrushedCandyCane.name", "&4&lCrushed &f&lCandy &4&lCane");
         addMessage("Particle-Effects.EnderAura.name", "&d&lEnder Aura");
         addMessage("Particle-Effects.FlameFairy.name", "&6&lFlame Fairy");
+        addMessage("Particle-Effects.T1Flame.name", "&6&lT1 Flame");
 
         // PETS
         addMessage("Pets.Piggy.menu-name", "&d&lPiggy");
