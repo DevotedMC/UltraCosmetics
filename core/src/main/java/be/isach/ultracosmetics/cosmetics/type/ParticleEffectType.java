@@ -56,6 +56,7 @@ public class ParticleEffectType extends CosmeticMatType<ParticleEffect> {
     public static final ParticleEffectType CRUSHEDCANDYCANE = new ParticleEffectType("ultracosmetics.particleeffects.crushedcandycane", "CrushedCandyCane", 1, Particles.ITEM_CRACK, Material.INK_SACK, (byte) 1, ParticleEffectCrushedCandyCane.class,"&7&oThere's no such thing as too much\n&7&oChristmas Candy. Do not listen\n&7&oto your dentist.");
     public static final ParticleEffectType ENDERAURA = new ParticleEffectType("ultracosmetics.particleeffects.enderaura", "EnderAura", 1, Particles.PORTAL, Material.EYE_OF_ENDER, (byte) 0, ParticleEffectEnderAura.class, "&7&oThese mystic particle attach" +" to\n&7&oonly the most legendary of players!");
     public static final ParticleEffectType FLAMEFAIRY = new ParticleEffectType("ultracosmetics.particleeffects.flamefairy", "FlameFairy", 1, Particles.FLAME, Material.BLAZE_POWDER, (byte) 0, ParticleEffectFlameFairy.class, "&7&oHEY!!");
+    public static final ParticleEffectType T1FLAME = new ParticleEffectType("ultracosmetics.particleeffects.t1flame", "T1 Flame", 1, Particles.LAVA, Material.BLAZE_POWDER, (byte) 0, ParticleEffectT1Flame.class, "&7&oT1!!");
 
     private Particles effect;
     private int repeatDelay;
