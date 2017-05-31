@@ -15,7 +15,7 @@ import org.bukkit.util.Vector;
  * @author 	iSach
  * @since 	12-23-2015
  */
-public class ParticleEffectFlameFairy extends ParticleEffect {
+public class ParticleEffectT1Flame extends ParticleEffect {
 
     private Vector targetDirection = new Vector(1, 0, 0);
 
@@ -23,8 +23,8 @@ public class ParticleEffectFlameFairy extends ParticleEffect {
 
     public double noMoveTime = 0, movementSpeed = 0.2d;
 
-    public ParticleEffectFlameFairy(UltraPlayer owner, UltraCosmetics ultraCosmetics) {
-        super(ultraCosmetics, owner, ParticleEffectType.FLAMEFAIRY);
+    public ParticleEffectT1Flame(UltraPlayer owner, UltraCosmetics ultraCosmetics) {
+        super(ultraCosmetics, owner, ParticleEffectType.T1FLAME);
 
         currentLocation = getPlayer().getLocation();
         targetLocation = generateNewTarget();
@@ -69,7 +69,7 @@ public class ParticleEffectFlameFairy extends ParticleEffect {
             currentLocation.add(targetDirection.clone().multiply(movementSpeed));
 
         UtilParticles.display(Particles.LAVA, currentLocation);
-        UtilParticles.display(Particles.FLAME, currentLocation);
+        UtilParticles.display(Particles.VILLAGER_ANGRY, currentLocation);
     }
 
     private Location generateNewTarget() {
