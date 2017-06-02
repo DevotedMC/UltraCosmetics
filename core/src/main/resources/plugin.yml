@@ -154,6 +154,7 @@ permissions:
       - ultracosmetics.particleeffects.crushedcandycane
       - ultracosmetics.particleeffects.enderaura
       - ultracosmetics.particleeffects.flamefairy
+      - ultracosmetics.particleeffects.t1flame
   ultracosmetics.particleeffects.raincloud:
     default: op
   ultracosmetics.particleeffects.snowcloud:
@@ -185,6 +186,8 @@ permissions:
   ultracosmetics.particleeffects.crushedcandycane:
     default: op
   ultracosmetics.particleeffects.flamefairy:
+    default: op
+  ultracosmetics.particleeffects.t1flame:
     default: op
   ultracosmetics.particleeffects.enderaura:
     default: op
