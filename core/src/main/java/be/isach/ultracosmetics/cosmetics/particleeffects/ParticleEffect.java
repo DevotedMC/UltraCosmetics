@@ -55,6 +55,7 @@ public abstract class ParticleEffect extends Cosmetic<ParticleEffectType> implem
                         && getType() != ParticleEffectType.MUSIC
                         && getType() != ParticleEffectType.SANTAHAT
                         && getType() != ParticleEffectType.FLAMEFAIRY
+                        && getType() != ParticleEffectType.T1FLAME
                         && getType() != ParticleEffectType.ENDERAURA) {
                     if (!isMoving() || ignoreMove)
                         onUpdate();
